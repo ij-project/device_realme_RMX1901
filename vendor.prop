@@ -166,6 +166,7 @@ ro.hardware.keystore_desede=true
 # Media
 vendor.media.target.version=1
 vendor.sys.media.target.version=1
+debug.stagefright.c2inputsurface=-1
 
 # Netflix custom property
 ro.netflix.bsp_rev=Q670-14477-1
