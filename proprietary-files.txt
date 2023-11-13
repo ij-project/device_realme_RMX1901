@@ -651,10 +651,6 @@ vendor/firmware/a640_gmu.bin
 vendor/lib/hw/vulkan.adreno.so|dfa5eaa05520e4728ee58959c706974eca2432d2
 vendor/lib64/hw/vulkan.adreno.so|7fe53628fbaf5a4c866fd82c6254021d670c7d83
 
-# Health
-vendor/bin/hw/android.hardware.health@2.1-service
-vendor/etc/init/android.hardware.health@2.1-service.rc
-
 # IMS (system) - from LA.QSSI.15.0.r1-13300-qssi.0
 system_ext/app/ImsRcsService/ImsRcsService.apk|8a421431e6dcdadf281a55861c7256e24f6e223c
 system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml|c5c9dd633c3f5450f315017cd4645a11de3d7ed3

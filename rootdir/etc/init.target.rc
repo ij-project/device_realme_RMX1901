@@ -107,7 +107,7 @@ on boot
     chown system system /sys/class/leds/green/blink
     chown system system /sys/class/leds/blue/blink
 
-on charger
+on property:init.svc.vendor.charger=running
     start vendor.power_off_alarm
 
 service thermal-engine /system/vendor/bin/thermal-engine

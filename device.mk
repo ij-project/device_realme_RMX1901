@@ -185,8 +185,8 @@ SRC_MEDIA_HAL_DIR := hardware/qcom-caf/sdm845/media
 
 # Health
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.1-impl \
-    android.hardware.health@2.1-impl.recovery
+    android.hardware.health-service.qti \
+    android.hardware.health-service.qti_recovery
 
 # Input
 PRODUCT_COPY_FILES += \
