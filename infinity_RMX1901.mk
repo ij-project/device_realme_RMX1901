@@ -4,13 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Pixel AOSP stuff
+# Inherit some common Infinity X stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_SUPPORTS_GOOGLE_BATTERY := true
-TARGET_SUPPORTS_ADPATIVE_CHARGING := true
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+TARGET_HAS_UDFPS := true
+WITH_GAPPS := true
+TARGET_BUILD_GOOGLE_TELEPHONY := true
+INFINITY_MAINTAINER := м∂_ιѕяαƒιℓ
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -24,7 +24,7 @@ PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/aosp-sign/keys/releasekey
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1901
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := aosp_RMX1901
+PRODUCT_NAME := infinity_RMX1901
 PRODUCT_MODEL := RMX1901
 
 PRODUCT_SYSTEM_NAME := RMX1901

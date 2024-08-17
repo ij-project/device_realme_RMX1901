@@ -5,8 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_RMX1901.mk
+    $(LOCAL_DIR)/infinity_RMX1901.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_RMX1901-userdebug \
-    aosp_RMX1901-eng
+    infinity_RMX1901-user \
+    infinity_RMX1901-userdebug \
+    infinity_RMX1901-eng

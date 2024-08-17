@@ -31,7 +31,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     CarrierLocation \
     CarrierMetrics \
     AmbientStreaming \
-    AndroidAutoStubPrebuilt \
+    AndroidAutoStub \
     FilesPrebuilt \
     SafetyHubPrebuilt \
     ScribePrebuilt \
