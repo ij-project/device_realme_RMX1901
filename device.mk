@@ -414,9 +414,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PRODUCT_VNDK_VERSION := current
 PRODUCT_ENFORCE_PRODUCT_PARTITION_INTERFACE := true
 
-# Wi-Fi Display
+# Wallet
 PRODUCT_PACKAGES += \
-    android.media.audio.common.types-V3-cpp
+    QuickAccessWallet
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
