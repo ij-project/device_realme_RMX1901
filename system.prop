@@ -150,3 +150,9 @@ persist.vendor.ssr.restart_level=ALL_ENABLE
 # Wi-Fi display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+
+# Infinity-X AboutPhone
+ro.infinity.soc=Snapdragon 710
+ro.infinity.battery=3765mAh
+ro.infinity.display=1080x2340, 60Hz
+ro.infinity.camera=48MP + 5MP, 16MP
