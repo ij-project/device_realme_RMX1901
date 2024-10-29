@@ -128,11 +128,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service \
     vendor.qti.hardware.display.allocator@1.0-service
 
-# Dexpreopt
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SettingsGoogle \
-    SystemUIGoogle
-
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
 PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/boot/boot-image-profile.txt
