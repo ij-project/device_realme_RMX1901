@@ -4,33 +4,14 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
-LOCAL_OVERRIDES_PACKAGES := \
-    RecorderPrebuilt \
-    Photos \
-    Drive \
-    Maps \
-    YouTube \
-    MeetPrebuilt \
-    PrebuiltGmail \
-    GoogleTTS \
-    AndroidAutoStubPrebuilt \
-    SoundAmplifierPrebuilt \
-    GoogleCamera \
-    AdaptiveVPNPrebuilt \
-    LocationHistoryPrebuilt \
-    DreamlinerPrebuilt \
-    DreamlinerUpdater \
-    SafetyHubPrebuilt \
-    ScribePrebuilt \
-    Videos \
-    PixelWallpapers2023 \
-    PixelLiveWallpaperPrebuilt \
-    talkback \
-    arcore \
-    Updater \
-    FMRadio \
-    Recorder \
-    Nfc
+
+LOCAL_OVERRIDES_PACKAGES := AudioFX PicoTts FMRadio Eleven Gallery2 Recorder
+LOCAL_OVERRIDES_PACKAGES += Glimpse PhotoTable AndroidAutoStubPrebuilt
+LOCAL_OVERRIDES_PACKAGES += GoogleTTS WellbeingPrebuilt FilesPrebuilt DreamlinerUpdater
+LOCAL_OVERRIDES_PACKAGES += TagGoogle talkback OdadPrebuilt MaestroPrebuilt
+LOCAL_OVERRIDES_PACKAGES += bcr CreativeAssistant KidsSupervisionStub
+LOCAL_OVERRIDES_PACKAGES += DreamlinerDreamsPrebuilt_100894 DreamlinerPrebuilt_22000020
+
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
