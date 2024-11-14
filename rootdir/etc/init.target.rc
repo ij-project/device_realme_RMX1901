@@ -135,6 +135,9 @@ on property:init.svc.vendor.hwcomposer-2-3=running
 on property:init.svc.vendor.hwcomposer-2-3=restarting
     stop ppd
 
+on property:init.svc.statsd=running
+    stop statsd
+
 #ifdef VENDOR_EDIT
 #Rongchun.zhang@PSW.MM.Display.feature, 2018/11/09, Add for restart ppd aftern FDE
 on property:init.svc.zygote=stopped
