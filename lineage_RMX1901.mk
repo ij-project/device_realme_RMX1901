@@ -12,6 +12,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # RisingOS Flags
 WITH_GMS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
 	
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
