@@ -1553,7 +1553,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="supl" />
         </string-array>
         <boolean name="config_update_service_status" value="false"/>
-        <boolean name="vonr_enabled_bool" value="true"/>
     </carrier_config>
 
     <carrier_config mcc="455" mnc="07">
@@ -1575,7 +1574,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="supl" />
         </string-array>
         <boolean name="config_update_service_status" value="false"/>
-        <boolean name="vonr_enabled_bool" value="true"/>
     </carrier_config>
 
     <carrier_config mcc="460" mnc="00">
@@ -1641,7 +1639,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="1"/>
         </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
-        <boolean name="vonr_enabled_bool" value="true"/>
         <boolean name="carrier_data_channel_supported_bool" value="true"/>
         <boolean name="carrier_video_online_service_supported_bool" value="true"/>
     </carrier_config>
@@ -1683,7 +1680,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="1"/>
         </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
-        <boolean name="vonr_enabled_bool" value="true"/>
     </carrier_config>
 
     <carrier_config mcc="460" mnc="02">
@@ -1749,7 +1745,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="1"/>
         </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
-        <boolean name="vonr_enabled_bool" value="true"/>
         <boolean name="carrier_data_channel_supported_bool" value="true"/>
         <boolean name="carrier_video_online_service_supported_bool" value="true"/>
     </carrier_config>
@@ -1799,7 +1794,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         </int-array>
         <boolean name="carrier_video_crs_supported_bool" value="true" />
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
-        <boolean name="vonr_enabled_bool" value="true"/>
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <boolean name="carrier_data_channel_supported_bool" value="true"/>
     </carrier_config>
@@ -1867,7 +1861,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="1"/>
         </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
-        <boolean name="vonr_enabled_bool" value="true"/>
         <boolean name="carrier_data_channel_supported_bool" value="true"/>
         <boolean name="carrier_video_online_service_supported_bool" value="true"/>
     </carrier_config>
@@ -1929,7 +1922,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
         <boolean name="carrier_video_crs_supported_bool" value="true" />
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
-        <boolean name="vonr_enabled_bool" value="true"/>
     </carrier_config>
 
     <carrier_config mcc="460" mnc="07">
@@ -1994,7 +1986,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="1"/>
         </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
-        <boolean name="vonr_enabled_bool" value="true"/>
         <boolean name="carrier_data_channel_supported_bool" value="true"/>
         <boolean name="carrier_video_online_service_supported_bool" value="true"/>
     </carrier_config>
@@ -2060,7 +2051,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="1"/>
         </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
-        <boolean name="vonr_enabled_bool" value="true"/>
         <boolean name="carrier_data_channel_supported_bool" value="true"/>
         <boolean name="carrier_video_online_service_supported_bool" value="true"/>
     </carrier_config>
@@ -2097,7 +2087,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="1"/>
         </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
-        <boolean name="vonr_enabled_bool" value="true"/>
     </carrier_config>
 
     <carrier_config mcc="460" mnc="10">
@@ -2154,7 +2143,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         </int-array>
         <boolean name="carrier_video_crs_supported_bool" value="true" />
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
-        <boolean name="vonr_enabled_bool" value="true"/>
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <boolean name="carrier_data_channel_supported_bool" value="true"/>
     </carrier_config>
@@ -2259,7 +2247,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="1"/>
         </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
-        <boolean name="vonr_enabled_bool" value="true"/>
         <boolean name="carrier_data_channel_supported_bool" value="true"/>
         <boolean name="carrier_video_online_service_supported_bool" value="true"/>
     </carrier_config>
@@ -2323,8 +2310,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="1"/>
         </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
-        <boolean name="vonr_enabled_bool" value="true"/>
-        <boolean name="vonr_setting_visibility_bool" value="false"/>
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
     </carrier_config>
 
