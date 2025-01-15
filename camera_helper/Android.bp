@@ -1,0 +1,21 @@
+//
+// Copyright (C) 2025 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app {
+    name: "RealmeCameraHelper",
+
+    srcs: ["src/**/*.java"],
+    manifest: "AndroidManifest.xml",
+
+    resource_dirs: ["res"],
+    certificate: "platform",
+    platform_apis: true,
+    privileged: true,
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
+}
