@@ -4,16 +4,17 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Rising OS stuff
+# Inherit some common Matrixx OS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_HAS_UDFPS := true
-DONT_DEXPREOPT_PREBUILTS := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# RisingOS Flags
+# Matrixx Flags
 WITH_GMS := true
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
-	
+MATRIXX_CHIPSET := SDM710
+MATRIXX_BATTERY := 3765mAh
+MATRIXX_DISPLAY := 1080x2340
+
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
