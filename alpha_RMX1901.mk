@@ -4,16 +4,22 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Rising OS stuff
+# Inherit some common Alpha-Droid stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_HAS_UDFPS := true
-DONT_DEXPREOPT_PREBUILTS := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+TARGET_HAS_UDFPS := false
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+$(call inherit-product, vendor/alpha/config/common_full_phone.mk)
 
-# RisingOS Flags
-WITH_GMS := true
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
-	
+# Alpha Specific Flags
+ALPHA_MAINTAINER := м∂_ιѕяαƒιℓ
+# TARGET_BUILD_PACKAGE options:
+# 1 - vanilla (default)
+# 2 - microg
+# 3 - gapps
+TARGET_BUILD_PACKAGE := 3
+
+
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
@@ -26,7 +32,7 @@ PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/lineage-priv/keys/releasekey
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1901
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := lineage_RMX1901
+PRODUCT_NAME := alpha_RMX1901
 PRODUCT_MODEL := RMX1901
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
