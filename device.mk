@@ -178,6 +178,9 @@ SRC_MEDIA_HAL_DIR := hardware/qcom-caf/sdm845/media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
 
+# Kernel
+PRODUCT_ENABLE_UFFD_GC := false
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
