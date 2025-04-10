@@ -9,6 +9,7 @@ from extract_utils.fixups_blob import (
     blob_fixups_user_type,
 )
 from extract_utils.fixups_lib import (
+    lib_fixup_remove,
     lib_fixups,
     lib_fixups_user_type,
 )
@@ -43,13 +44,18 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.qti.imsrtpservice@3.0',
         'vendor.qti.latency@2.0',
     ): lib_fixup_vendor_suffix,
+    (
+        'libwpa_client',
+    ): lib_fixup_remove,
 }
 
 blob_fixups: blob_fixups_user_type = {
-    'vendor/lib64/hw/camera.qcom.so': blob_fixup()
-        .add_needed('libcamera_metadata_shim.so'),
     ('odm/lib64/mediadrm/libwvdrmengine.so', 'odm/lib64/libwvhidl.so'): blob_fixup()
         .add_needed('libcrypto_shim.so'),
+    'vendor/etc/seccomp_policy/atfwd@2.0.policy': blob_fixup()
+         .add_line_if_missing('gettid: 1'),
+    'vendor/lib64/hw/camera.qcom.so': blob_fixup()
+        .add_needed('libcamera_metadata_shim.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
