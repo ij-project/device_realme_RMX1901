@@ -45,7 +45,10 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.qti.latency@2.0',
     ): lib_fixup_vendor_suffix,
     (
-        'libwpa_client',
+        'libavutil',
+        'libstdc++',
+        'libadiertac',
+        'libacdb-fts',
     ): lib_fixup_remove,
 }
 
