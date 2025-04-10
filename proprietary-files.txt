@@ -1,11 +1,5 @@
 # All unpinned blobs are from RUI 2.0 F06
 
-# GNU makefile dependants:
-# - libwpa_client:
-# - libobcdepth_hal
-# - libswscale
-# - libswresample
-
 # ACDB
 odm/etc/acdbdata/Bluetooth_cal.acdb
 odm/etc/acdbdata/General_cal.acdb
@@ -158,8 +152,8 @@ odm/etc/camera/singleblur/merged_model_post
 odm/etc/camera/oppo_camera_config.xml
 odm/lib/libSNPE_G.so
 odm/lib64/libormshalclient.so
-odm/lib64/libswresample.so;DISABLE_CHECKELF
-odm/lib64/libswscale.so;DISABLE_CHECKELF
+odm/lib64/libswresample.so
+odm/lib64/libswscale.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 vendor/etc/camera/Charming.cng
 vendor/etc/camera/M_Attribute_Gender_Age_1.0.model
@@ -181,7 +175,7 @@ vendor/lib/camera/fdconfigvideo.bin
 vendor/lib/camera/fdconfigvideolite.bin
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
-vendor/lib/libOPPORectify.so;DISABLE_CHECKELF
+vendor/lib/libOPPORectify.so
 vendor/lib/libOccluDetect.so
 vendor/lib/libOppoAPSMemMgr.so
 vendor/lib/libOppoAlgoClient.so
@@ -192,18 +186,18 @@ vendor/lib/libSTDualCamCaptureBokeh.so
 vendor/lib/libSTDualCamPreviewBokeh.so
 vendor/lib/libSTdisp.so
 vendor/lib/libSonyIMX471RmscLibrary.so
-vendor/lib/libSonyIMX519MbrLibrary.so;DISABLE_CHECKELF
+vendor/lib/libSonyIMX519MbrLibrary.so
 vendor/lib/libVDImageAdjustment.so
 vendor/lib/libVDRTImageAdjustment.so
 vendor/lib/libarcsoft_distortion_correction.so
 vendor/lib/libarcsoft_distortion_correction_710.so
 vendor/lib/libarcsoft_dualcam_portrait_shot.so
-vendor/lib/libarcsoft_hdr_couple_api.so;DISABLE_CHECKELF
+vendor/lib/libarcsoft_hdr_couple_api.so
 vendor/lib/libarcsoft_hdr_denoise_api.so
 vendor/lib/libarcsoft_high_dynamic_range.so
-vendor/lib/libarcsoft_high_dynamic_range_couple.so;DISABLE_CHECKELF
+vendor/lib/libarcsoft_high_dynamic_range_couple.so
 vendor/lib/libarcsoft_low_light_hdr.so
-vendor/lib/libarcsoft_picauto.so;DISABLE_CHECKELF
+vendor/lib/libarcsoft_picauto.so
 vendor/lib/libarcsoft_smart_denoise.so
 vendor/lib/libblur_channel.so
 vendor/lib/libbokehclient.so
@@ -219,7 +213,7 @@ vendor/lib/libcamxswprocessalgo.so
 vendor/lib/libcamxtintlessalgo.so
 vendor/lib/libcom.qti.chinodeutils.so
 vendor/lib/libcvface_api.so
-vendor/lib/libdepthmap.so;DISABLE_CHECKELF
+vendor/lib/libdepthmap.so
 vendor/lib/libfastcrc.so
 vendor/lib/libiu456_datapath_filt_lib.so
 vendor/lib/libiu456_datapath_processor.so
@@ -227,7 +221,7 @@ vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmpbase.so
 vendor/lib/libnnp.so
-vendor/lib/libobcdepth_hal.so;DISABLE_CHECKELF
+vendor/lib/libobcdepth_hal.so
 vendor/lib/libocam_common.so
 vendor/lib/libocam_snapshot_intf.so
 vendor/lib/liboppo_aisd.so
@@ -292,7 +286,7 @@ vendor/lib64/libarcsoft_high_dynamic_range.so
 vendor/lib64/libarcsoft_low_light_hdr.so
 vendor/lib64/libarcsoft_portraitSN_hvx_stub.so
 vendor/lib64/libarcsoft_portrait_super_night_raw.so
-vendor/lib64/libarcsoft_relighting_pro_image.so;DISABLE_CHECKELF
+vendor/lib64/libarcsoft_relighting_pro_image.so
 vendor/lib64/libarcsoft_smart_denoise.so
 vendor/lib64/libarcsoft_super_night_raw.so
 vendor/lib64/libbokehclient.so
