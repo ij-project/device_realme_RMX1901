@@ -6,7 +6,6 @@
 
 # Inherit some common Rising OS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_HAS_UDFPS := true
 DONT_DEXPREOPT_PREBUILTS := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
