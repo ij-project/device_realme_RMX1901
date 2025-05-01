@@ -13,13 +13,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "logcat.rc",
-    src: "etc/logcat.rc",
-    sub_dir: "init/hw",
-    soc_specific: true,
-}
-
-prebuilt_etc {
     name: "init.oppo.display.rc",
     src: "etc/init.oppo.display.rc",
     sub_dir: "init/hw",

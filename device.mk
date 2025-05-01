@@ -331,7 +331,6 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.oppo.vendor.motor.rc \
     ueventd.qcom.rc \
-    logcat.rc  \
     usb_compositions.conf
 
 PRODUCT_COPY_FILES += \
