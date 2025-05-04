@@ -6,7 +6,7 @@
 
 # Inherit some common Matrixx OS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_GSUITE := true
+WITH_GMS_COMMS_SUITE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Matrixx Flags
