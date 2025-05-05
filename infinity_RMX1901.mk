@@ -6,7 +6,6 @@
 
 # Inherit some common Infinity X stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_HAS_UDFPS := true
 WITH_GAPPS := true
 TARGET_BUILD_GOOGLE_TELEPHONY := true
 INFINITY_MAINTAINER := м∂_ιѕяαƒιℓ
