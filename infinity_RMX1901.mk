@@ -7,7 +7,7 @@
 # Inherit some common Infinity X stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GAPPS := true
-TARGET_BUILD_GOOGLE_TELEPHONY := true
+TARGET_SHIPS_GOOGLE_DIALER := true
 INFINITY_MAINTAINER := м∂_ιѕяαƒιℓ
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 

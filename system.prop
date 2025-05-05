@@ -146,6 +146,7 @@ persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
 
 # Infinity-X AboutPhone
+ro.product.marketname=realme X
 ro.infinity.soc=Snapdragon 710
 ro.infinity.battery=3765mAh
 ro.infinity.display=1080x2340, 60Hz
