@@ -167,7 +167,7 @@ vendor/lib64/libPerfectlyClearCrux.so
 vendor/lib64/libPolarrRender.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libSonyIMX471RmscLibrary.so
-vendor/lib64/libVDBlurlessAPI_v2.so;DISABLE_CHECKELF
+vendor/lib64/libVDBlurlessAPI_v2.so
 vendor/lib64/libVDDualCameraBlurlessAPI.so
 vendor/lib64/libVDEyeEnhance.so
 vendor/lib64/libVDPostureDetection.so
