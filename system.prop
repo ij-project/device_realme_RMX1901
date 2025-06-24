@@ -142,6 +142,9 @@ persist.vendor.ssr.restart_level=ALL_ENABLE
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
 
+# Enable Vulkan for HWUI
+ro.hwui.use_vulkan=true
+
 # Infinity-X AboutPhone
 ro.product.marketname=realme X
 ro.infinity.soc=Snapdragon 710
