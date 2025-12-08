@@ -16,7 +16,6 @@
 
 package org.device.RealmeParts.Touch.util;
 
-import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
 import android.content.Intent.ShortcutIconResource;
