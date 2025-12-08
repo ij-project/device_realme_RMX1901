@@ -1,15 +1,22 @@
 #
-# Copyright (C) 2021-2024 The AOSP Project
+# Copyright (C) 2021-2024 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Infinity X stuff
+# Inherit some common Alpha-Droid stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-WITH_GAPPS := true
-TARGET_SHIPS_GOOGLE_DIALER := true
-INFINITY_MAINTAINER := м∂_ιѕяαƒιℓ
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+TARGET_SUPPORTS_QUICK_TAP := true
+$(call inherit-product, vendor/alpha/config/common_full_phone.mk)
+
+# Alpha Specific Flags
+ALPHA_MAINTAINER := м∂_ιѕяαƒιℓ
+# TARGET_BUILD_PACKAGE options:
+# 1 - vanilla (default)
+# 2 - microg
+# 3 - gapps
+TARGET_BUILD_PACKAGE := 3
+
 
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -23,7 +30,7 @@ PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/lineage-priv/keys/releasekey
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1901
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := infinity_RMX1901
+PRODUCT_NAME := alpha_RMX1901
 PRODUCT_MODEL := RMX1901
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
