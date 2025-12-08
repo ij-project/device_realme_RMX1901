@@ -143,9 +143,12 @@ persist.vendor.ssr.restart_level=ALL_ENABLE
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
 
-# Infinity-X AboutPhone
-ro.product.marketname=realme X
-ro.infinity.soc=Snapdragon 710
-ro.infinity.battery=3765mAh
-ro.infinity.display=1080x2340, 60Hz
-ro.infinity.camera=48MP + 5MP, 16MP
+# Mist-OS AboutPhone
+ro.mist.display=1080 x 2340, 60 hz
+ro.mist.battery=3765mah
+ro.mist.soc=Snapdragon® 710
+ro.mist.camera=48MP + 5MP
+ro.mist.front=16MP
+ro.mist.platform=SDM710
+ro.mist.screen=6.53' AMOLED
+ro.mist.device.name=realme X
