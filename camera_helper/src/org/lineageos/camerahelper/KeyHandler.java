@@ -16,7 +16,6 @@
 
 package org.lineageos.camerahelper;
 
-import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager.NameNotFoundException;
@@ -27,6 +26,7 @@ import android.view.KeyEvent;
 import android.view.WindowManager;
 
 import com.android.internal.os.DeviceKeyHandler;
+import androidx.appcompat.app.AlertDialog;
 
 public class KeyHandler implements DeviceKeyHandler {
     private static final String TAG = KeyHandler.class.getSimpleName();

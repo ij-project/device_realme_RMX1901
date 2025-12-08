@@ -16,7 +16,6 @@
 
 package org.lineageos.camerahelper;
 
-import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.hardware.Sensor;
@@ -29,6 +28,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.WindowManager;
 
+import androidx.appcompat.app.AlertDialog;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
