@@ -23,6 +23,7 @@ import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
+import android.view.ContextThemeWrapper;
 import android.view.KeyEvent;
 import android.view.WindowManager;
 
@@ -86,7 +87,9 @@ public class KeyHandler implements DeviceKeyHandler {
         new Handler(Looper.getMainLooper()).post(() -> {
             Context packageContext = getPackageContext();
             if (packageContext != null) {
-                AlertDialog alertDialog = new AlertDialog.Builder(packageContext)
+                Context context = new ContextThemeWrapper(
+                        packageContext, R.style.Theme_SubSettingsBase_Expressive);
+                AlertDialog alertDialog = new AlertDialog.Builder(context)
                         .setTitle(R.string.warning)
                         .setMessage(R.string.motor_cannot_go_down_message)
                         .setPositiveButton(R.string.retry, (dialog, which) -> {
@@ -108,7 +111,9 @@ public class KeyHandler implements DeviceKeyHandler {
         new Handler(Looper.getMainLooper()).post(() -> {
             Context packageContext = getPackageContext();
             if (packageContext != null) {
-                AlertDialog alertDialog = new AlertDialog.Builder(packageContext)
+                Context context = new ContextThemeWrapper(
+                        packageContext, R.style.Theme_SubSettingsBase_Expressive);
+                AlertDialog alertDialog = new AlertDialog.Builder(context)
                         .setTitle(R.string.warning)
                         .setMessage(R.string.motor_cannot_go_up_message)
                         .setNegativeButton(R.string.retry, (dialog, which) -> {
@@ -148,7 +153,9 @@ public class KeyHandler implements DeviceKeyHandler {
         new Handler(Looper.getMainLooper()).post(() -> {
             Context packageContext = getPackageContext();
             if (packageContext != null) {
-                AlertDialog alertDialog = new AlertDialog.Builder(packageContext)
+                Context context = new ContextThemeWrapper(
+                        packageContext, R.style.Theme_SubSettingsBase_Expressive);
+                AlertDialog alertDialog = new AlertDialog.Builder(context)
                         .setTitle(R.string.warning)
                         .setMessage(R.string.motor_press_message)
                         .setPositiveButton(android.R.string.ok, null)
