@@ -7,6 +7,7 @@
 # Inherit some common AxionOS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_ENABLE_BLUR := true
+TARGET_INCLUDE_AXFX := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from RMX1901 device
@@ -24,9 +25,6 @@ GPU_FREQS_PATH := /sys/class/kgsl/kgsl-3d0/devfreq/available_frequencies
 GPU_MIN_FREQ_PATH := /sys/class/kgsl/kgsl-3d0/devfreq/min_freq
 LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
 
-
-# Viper
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Sign builds
 PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/lineage-priv/keys/releasekey
