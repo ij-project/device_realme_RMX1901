@@ -9,6 +9,8 @@ cc_prebuilt_binary {
         "AndroidAutoStubPrebuilt",
         "WellbeingPrebuilt",
         "talkback",
+        "Velvet",
+        "PrebuiltBugle",
     ],
     strip: {
         none: true,
