@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 LineageOS Project
+ * SPDX-FileCopyrightText: LineageOS Project
  *
  *
  * SPDX-License-Identifier: Apache-2.0
