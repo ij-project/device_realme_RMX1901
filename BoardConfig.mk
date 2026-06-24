@@ -84,9 +84,6 @@ DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
 
-# Media
-TARGET_USES_ION := true
-
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
