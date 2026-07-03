@@ -92,10 +92,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
     Aperture
-
-# Configstore
-PRODUCT_PACKAGES += \
-    disable_configstore
     
 # Charger
 PRODUCT_PACKAGES += \
