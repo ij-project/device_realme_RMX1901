@@ -133,7 +133,6 @@ ro.apk_verity.mode=2
 
 # Graphics
 debug.sf.recomputecrop=0
-debug.mdpcomp.logs=0
 debug.sf.latch_unsignaled=0
 debug.sf.auto_latch_unsignaled=0
 debug.sf.layer_caching_active_layer_timeout_ms=1000
