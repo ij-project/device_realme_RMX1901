@@ -12,6 +12,8 @@ cc_prebuilt_binary {
         "CalendarGooglePrebuilt",
         "Etar",
         "GoogleTTS",
+        "Gallery2",
+        "SoundPickerPrebuilt_33000242",
         "WellbeingPrebuilt",
         "LocationHistoryPrebuilt",
         "GeminiShell_227",
