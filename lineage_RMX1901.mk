@@ -6,8 +6,7 @@
 
 # Inherit some common AxionOS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_ENABLE_BLUR := true
-TARGET_INCLUDE_AXFX := true
+TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from RMX1901 device
@@ -18,12 +17,6 @@ AXION_CAMERA_REAR_INFO := 48,5
 AXION_CAMERA_FRONT_INFO := 16
 AXION_MAINTAINER := м∂_ιѕяαƒιℓ
 AXION_PROCESSOR := Qualcomm_Snapdragon_710_AIE
-PERF_ANIM_OVERRIDE := true
-PERF_GOV_SUPPORTED := true
-PERF_DEFAULT_GOV := schedutil
-GPU_FREQS_PATH := /sys/class/kgsl/kgsl-3d0/devfreq/available_frequencies
-GPU_MIN_FREQ_PATH := /sys/class/kgsl/kgsl-3d0/devfreq/min_freq
-LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
 
 
 # Viper
