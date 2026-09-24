@@ -1,0 +1,22 @@
+on post-fs-data
+    # Little cluster (cpu0-5)
+    chown system system /sys/devices/system/cpu/cpufreq/policy0/scaling_governor
+    chown system system /sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq
+    chown system system /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq
+    chmod 0664 /sys/devices/system/cpu/cpufreq/policy0/scaling_governor
+    chmod 0664 /sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq
+    chmod 0664 /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq
+
+    # Big cluster (cpu6-7)
+    chown system system /sys/devices/system/cpu/cpufreq/policy6/scaling_governor
+    chown system system /sys/devices/system/cpu/cpufreq/policy6/scaling_min_freq
+    chown system system /sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq
+    chmod 0664 /sys/devices/system/cpu/cpufreq/policy6/scaling_governor
+    chmod 0664 /sys/devices/system/cpu/cpufreq/policy6/scaling_min_freq
+    chmod 0664 /sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq
+
+    # Adreno 616 GPU
+    chown system system /sys/class/kgsl/kgsl-3d0/devfreq/min_freq
+    chown system system /sys/class/kgsl/kgsl-3d0/devfreq/max_freq
+    chmod 0664 /sys/class/kgsl/kgsl-3d0/devfreq/min_freq
+    chmod 0664 /sys/class/kgsl/kgsl-3d0/devfreq/max_freq

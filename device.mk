@@ -189,6 +189,9 @@ PRODUCT_COPY_FILES += \
 # Kernel
 PRODUCT_ENABLE_UFFD_GC := false
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/kernel/ax_kernel_manager_sdm710.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/ax_kernel_manager.xml
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
@@ -348,6 +351,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
+    ax_init_sdm710.rc \
     init.target.rc \
     init.oppo.vendor.motor.rc \
     ueventd.qcom.rc \

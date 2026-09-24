@@ -34,6 +34,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "ax_init_sdm710.rc",
+    src: "etc/ax_init_sdm710.rc",
+    sub_dir: "init",
+    soc_specific: true,
+}
+
+prebuilt_etc {
     name: "init.recovery.qcom.rc",
     src: "etc/init.recovery.qcom.rc",
     sub_dir: "init",
