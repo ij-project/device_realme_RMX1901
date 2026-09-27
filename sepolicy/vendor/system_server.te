@@ -18,3 +18,11 @@ allow system_server proc_touchpanel:file rw_file_perms;
 allow system_server proc_wakelocks:file { getattr open read };
 
 allow system_server app_zygote:process getpgid;
+
+# System server access for GPU nodes
+allow system_server sysfs_gpu:file rw_file_perms;
+allow system_server sysfs_kgsl:dir r_dir_perms;
+allow system_server sysfs_kgsl:file rw_file_perms;
+allow system_server sysfs_devfreq:dir r_dir_perms;
+allow system_server sysfs_devfreq:file rw_file_perms;
+allow system_server vendor_sysfs_kgsl_max_gpuclk:file rw_file_perms;

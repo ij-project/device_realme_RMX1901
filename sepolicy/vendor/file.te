@@ -49,3 +49,13 @@ type proc_vibration_file, sysfs_type, fs_type;
 
 # I/O Scheduler
 type sysfs_io_sched_tuneable, fs_type, sysfs_type;
+
+# Battery
+typealias sysfs_battery_supply alias vendor_sysfs_battery_supply;
+
+# Devfreq
+typealias sysfs_devfreq alias vendor_sysfs_devfreq;
+
+# GPU
+typealias sysfs_kgsl alias vendor_sysfs_kgsl;
+type vendor_sysfs_kgsl_max_gpuclk, fs_type, sysfs_type;

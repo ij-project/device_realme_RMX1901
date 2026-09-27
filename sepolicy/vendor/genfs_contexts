@@ -51,5 +51,6 @@ genfscon proc /sys/kernel/sched_migration_cost_ns   u:object_r:proc_sched:s0
 genfscon proc /sys/kernel/sched_pelt_multiplier                          u:object_r:proc_sched:s0
 
 # Axion GPU boost
-genfscon sysfs /sys/class/kgsl/kgsl-3d0/devfreq/available_frequencies u:object_r:sysfs_gpu:s0
-genfscon sysfs /sys/class/kgsl/kgsl-3d0/devfreq/min_freq u:object_r:sysfs_gpu:s0
+genfscon sysfs /devices/platform/soc/5000000.qcom,kgsl-3d0/kgsl/kgsl-3d0/devfreq/available_frequencies u:object_r:sysfs_gpu:s0
+genfscon sysfs /devices/platform/soc/5000000.qcom,kgsl-3d0/kgsl/kgsl-3d0/devfreq/min_freq u:object_r:sysfs_gpu:s0
+genfscon sysfs /devices/platform/soc/5000000.qcom,kgsl-3d0/kgsl/kgsl-3d0/max_gpuclk u:object_r:vendor_sysfs_kgsl_max_gpuclk:s0
